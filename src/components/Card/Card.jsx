@@ -13,27 +13,27 @@ export function Card({ zipCode, city, district, uf, address, ddd }) {
   return (
     <div className={styles.Card}>
       <p>
-        <EnvelopeOpen />
+        <EnvelopeOpen /> Cep
         {zipCode}
       </p>
       <p>
-        <House />
+        <House /> Cidade
         {city}
       </p>
       <p>
-        <At />
+        <At /> Bairro
         {district}
       </p>
       <p>
-        <Shuffle />
+        <Shuffle /> Uf
         {uf}
       </p>
       <p>
-        <AddressBook />
+        <AddressBook /> Endereço
         {address}
       </p>
       <p>
-        <Phone />
+        <Phone /> DDD
         {ddd}
       </p>
     </div>
