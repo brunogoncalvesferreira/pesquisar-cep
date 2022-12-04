@@ -27,7 +27,7 @@ O layout da aplicação:
   <img alt="preview" title="preview" src=".github/preview1.png" width="600px">
 </p>
 
-<a href="https://brunogoncalvesferreira.github.io/switcher-theme/">Link da aplicação online</a>
+<a href="https://pesquisar-cep-tan.vercel.app/">Link da aplicação online</a>
 
 ---
 
