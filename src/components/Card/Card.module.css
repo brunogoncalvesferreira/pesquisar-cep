@@ -1,0 +1,14 @@
+.Card {
+  background-color: var(--card--);
+  margin: 1rem 0;
+}
+
+.Card p {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-top: 1px solid var(--text-card--);
+  color: var(--text-card--);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

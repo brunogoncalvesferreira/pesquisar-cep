@@ -1,0 +1,75 @@
+.App {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+header h1 {
+  color: var(--text-primary);
+}
+
+main {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+form input {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--card--);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+form input::placeholder {
+  color: var(--text-primary);
+}
+
+form button {
+  background-color: var(--button--);
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--text-primary--);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+form button:hover {
+  background-color: var(--hover--);
+}
+
+footer {
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
